@@ -1,5 +1,5 @@
 //
-//  bViewController.swift
+//  B_ViewController.swift
 //  HomeWorkDispatch
 //
 //  Created by Igor Frik on 20.08.2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class bViewController: UIViewController {
+class B_ViewController: UIViewController {
 
     @IBOutlet weak var bImageView: UIImageView!
     

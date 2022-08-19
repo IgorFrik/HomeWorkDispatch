@@ -1,5 +1,5 @@
 //
-//  cViewController.swift
+//  C_ViewController.swift
 //  HomeWorkDispatch
 //
 //  Created by Igor Frik on 20.08.2022.
@@ -7,13 +7,8 @@
 
 import UIKit
 
-extension Int {
-    func powerOf2() -> Int {
-        return self * self
-    }
-}
-
-class cViewController: UIViewController {
+class C_ViewController: UIViewController {
+    
     @IBOutlet weak var numberTextField: UITextField!
     
     override func viewDidLoad() {
