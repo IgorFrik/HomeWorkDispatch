@@ -13,6 +13,7 @@
 		78DE05DB28AFF68000BD21C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DE05D928AFF68000BD21C9 /* Main.storyboard */; };
 		78DE05DD28AFF68100BD21C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78DE05DC28AFF68100BD21C9 /* Assets.xcassets */; };
 		78DE05E028AFF68100BD21C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DE05DE28AFF68100BD21C9 /* LaunchScreen.storyboard */; };
+		78DE05E828AFFD6200BD21C9 /* bViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DE05E728AFFD6200BD21C9 /* bViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		78DE05DC28AFF68100BD21C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78DE05DF28AFF68100BD21C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78DE05E128AFF68100BD21C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78DE05E728AFFD6200BD21C9 /* bViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				78DE05D528AFF68000BD21C9 /* SceneDelegate.swift */,
 				78DE05D728AFF68000BD21C9 /* ViewController.swift */,
 				78DE05D928AFF68000BD21C9 /* Main.storyboard */,
+				78DE05E728AFFD6200BD21C9 /* bViewController.swift */,
 				78DE05DC28AFF68100BD21C9 /* Assets.xcassets */,
 				78DE05DE28AFF68100BD21C9 /* LaunchScreen.storyboard */,
 				78DE05E128AFF68100BD21C9 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78DE05D828AFF68000BD21C9 /* ViewController.swift in Sources */,
+				78DE05E828AFFD6200BD21C9 /* bViewController.swift in Sources */,
 				78DE05D428AFF68000BD21C9 /* AppDelegate.swift in Sources */,
 				78DE05D628AFF68000BD21C9 /* SceneDelegate.swift in Sources */,
 			);
