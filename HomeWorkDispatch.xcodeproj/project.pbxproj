@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		781A38E428B0034E00414CEC /* cViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781A38E328B0034E00414CEC /* cViewController.swift */; };
 		78DE05D428AFF68000BD21C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DE05D328AFF68000BD21C9 /* AppDelegate.swift */; };
 		78DE05D628AFF68000BD21C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DE05D528AFF68000BD21C9 /* SceneDelegate.swift */; };
 		78DE05D828AFF68000BD21C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DE05D728AFF68000BD21C9 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		781A38E328B0034E00414CEC /* cViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cViewController.swift; sourceTree = "<group>"; };
 		78DE05D028AFF68000BD21C9 /* HomeWorkDispatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWorkDispatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DE05D328AFF68000BD21C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78DE05D528AFF68000BD21C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				78DE05D528AFF68000BD21C9 /* SceneDelegate.swift */,
 				78DE05D728AFF68000BD21C9 /* ViewController.swift */,
 				78DE05D928AFF68000BD21C9 /* Main.storyboard */,
+				781A38E328B0034E00414CEC /* cViewController.swift */,
 				78DE05E728AFFD6200BD21C9 /* bViewController.swift */,
 				78DE05DC28AFF68100BD21C9 /* Assets.xcassets */,
 				78DE05DE28AFF68100BD21C9 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				781A38E428B0034E00414CEC /* cViewController.swift in Sources */,
 				78DE05D828AFF68000BD21C9 /* ViewController.swift in Sources */,
 				78DE05E828AFFD6200BD21C9 /* bViewController.swift in Sources */,
 				78DE05D428AFF68000BD21C9 /* AppDelegate.swift in Sources */,
