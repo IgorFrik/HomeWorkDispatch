@@ -20,7 +20,7 @@ class LetMeDoIt {
 
 class D_ViewController: UIViewController {
     
-    var count = 10
+    var count = 5
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,14 +28,15 @@ class D_ViewController: UIViewController {
         func test() {
             let number = count
             var array = [1]
-            for i in 2...number {
+            for i in 1...number {
                 if i > 1 && !(2..<i).contains(where: { i % $0 == 0 }) { array.append(i)}
             }
             print("Найдено \(array.count) простых чисел: \(array)")
-            self.count *= 10
+            self.count *= 5
         }
         
         let a = LetMeDoIt()
+        a.addIt(test())
         a.addIt(test())
         a.addIt(test())
         a.addIt(test())

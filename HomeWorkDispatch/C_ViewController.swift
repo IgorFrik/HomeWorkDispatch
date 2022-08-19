@@ -20,7 +20,7 @@ class C_ViewController: UIViewController {
         DispatchQueue.global(qos: .background).async {
             var array = [1]
             let startTime = Date()
-            for i in 2...number {
+            for i in 1...number {
                 if i > 1 && !(2..<i).contains(where: { i % $0 == 0 }) { array.append(i)}
             }
             let overallTime = Date()
